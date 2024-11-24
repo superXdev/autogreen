@@ -34,4 +34,5 @@ for (let i = 1; i <= commitCount; i++) {
   runCommand(`git commit -m "Automated commit #${i}"`);
 }
 
+runCommand("git push");
 console.log(`Successfully created ${commitCount} commits!`);

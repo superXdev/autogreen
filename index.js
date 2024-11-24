@@ -21,7 +21,7 @@ const runCommand = (command) => {
 };
 
 // Number of commits to create
-const commitCount = 10;
+const commitCount = 2;
 
 for (let i = 1; i <= commitCount; i++) {
   // Modify the file
